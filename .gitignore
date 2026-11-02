@@ -5,3 +5,4 @@ templates/*.pptx
 templates/unpacked
 templates/IBM_pptx_extracted
 powerpoint-templates/*.pptx
+*.zip
