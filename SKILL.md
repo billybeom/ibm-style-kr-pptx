@@ -1,5 +1,5 @@
 ---
-name: ibm-style-kr-pptx
+name: ibm-kr-pptx
 description: "IBM Carbon Design System 표준과 IBM Plex Sans KR 타이포그래피를 따르는 파워포인트 프레젠테이션을 생성, 편집, 읽어주는 스킬입니다. PptxGenJS로 IBM 규격 덱(IBM 표지, TOC, 섹션 구분자, 13개 IBM 콘텐츠 템플릿 카테고리, 엔딩 슬라이드)을 처음부터 만들거나, XML 워크플로로 기존 PPTX를 편집하거나, markitdown으로 텍스트를 추출합니다. IBM 일반 템플릿 스타일과 webMethods Hybrid Integration 셀러 덱 스타일을 모두 지원합니다. IBM Plex Sans KR 타이포그래피, IBM Blue 액센트, IBM 템플릿 레이아웃을 따릅니다. 트리거: PPT, PPTX, PowerPoint, 프레젠테이션, 발표자료, 슬라이드, 덱, IBM 프레젠테이션, IBM 덱, webMethods 프레젠테이션, 셀러 덱."
 license: MIT
 metadata:
