@@ -1,4 +1,4 @@
-# IBM 파워포인트 AI 스킬 (`ibm-pptx`)
+# IBM 파워포인트 AI 스킬 (`ibm-kr-pptx`)
 
 IBM Carbon Design System과 **IBM Plex Sans KR** 폰트를 완벽히 준수하는 IBM 스타일 파워포인트 자료를 AI로 생성·편집·분석하는 스킬입니다.
 
@@ -18,7 +18,7 @@ IBM Carbon Design System과 **IBM Plex Sans KR** 폰트를 완벽히 준수하�
 ## 파일 구성
 
 ```
-ibm-pptx/
+ibm-kr-pptx/
 ├── SKILL.md                          # 스킬 정의 (AI가 읽는 핵심 파일)
 ├── PPTX-STYLE.md                     # IBM 슬라이드 스타일 전체 가이드 (80개 슬라이드, 15개 섹션 분석)
 ├── README.md                         # 이 파일
@@ -74,19 +74,19 @@ pip install "markitdown[pptx]"
 ### 글로벌 설치 (모든 프로젝트에서 사용)
 
 ```
-~/.bob/skills/ibm-pptx/
+~/.bob/skills/ibm-kr-pptx/
 ```
 
 ### 프로젝트별 설치
 
 ```
-./.bob/skills/ibm-pptx/
+./.bob/skills/ibm-kr-pptx/
 ```
 
 설치 후 폴더 구조:
 
 ```
-.bob/skills/ibm-pptx/
+.bob/skills/ibm-kr-pptx/
 ├── SKILL.md
 ├── PPTX-STYLE.md
 ├── README.md
@@ -95,7 +95,7 @@ pip install "markitdown[pptx]"
 └── templates/
 ```
 
-IBM Bob이 자동으로 인식하며, 명시적으로 `/ibm-pptx`를 붙여 호출할 수도 있습니다.
+IBM Bob이 자동으로 인식하며, 명시적으로 `/ibm-kr-pptx`를 붙여 호출할 수도 있습니다.
 
 ---
 
@@ -104,7 +104,7 @@ IBM Bob이 자동으로 인식하며, 명시적으로 `/ibm-pptx`를 붙여 호�
 ### IBM 일반 스타일 덱 생성
 
 ```
-/ibm-pptx IBM 스타일로 파워포인트 자료를 만들어 주세요.
+/ibm-kr-pptx IBM 스타일로 파워포인트 자료를 만들어 주세요.
 
 IBM Instana를 소개하는 자료로, 엔드투엔드 풀스택 옵저버빌리티 플랫폼임을 강조하고
 300개 이상의 기술을 즉시 지원하는 점을 부각해 주세요.
@@ -121,7 +121,7 @@ IBM Instana를 소개하는 자료로, 엔드투엔드 풀스택 옵저버빌리
 ### webMethods 셀러 덱 생성
 
 ```
-/ibm-pptx webMethods_powerpoint_template.pptx 스타일로
+/ibm-kr-pptx webMethods_powerpoint_template.pptx 스타일로
 IBM webMethods Hybrid Integration 셀러 발표 자료를 만들어 주세요.
 
 주제: API 관리 및 하이브리드 통합 플랫폼의 가치 제안
@@ -137,7 +137,7 @@ IBM webMethods Hybrid Integration 셀러 발표 자료를 만들어 주세요.
 ### 기존 PPTX 텍스트 추출
 
 ```
-/ibm-pptx 이 파일의 내용을 요약해 주세요: presentation.pptx
+/ibm-kr-pptx 이 파일의 내용을 요약해 주세요: presentation.pptx
 ```
 
 생성된 덱은 `slides/output/` 폴더에 저장됩니다.
